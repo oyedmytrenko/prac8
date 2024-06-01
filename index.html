@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Task Navigation</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      p {
+        color: #333;
+        font-size: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+      button {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Select task:</p>
+    <div class="button-container">
+      <button onclick="window.location.href='tasks/task1/task.php';">
+        Task 1
+      </button>
+      <button onclick="window.location.href='tasks/task2/task.php';">
+        Task 2
+      </button>
+      <button onclick="window.location.href='tasks/task3/index.html';">
+        Task 3
+      </button>
+      <button onclick="window.location.href='tasks/task4/index.html';">
+        Task 4
+      </button>
+    </div>
+  </body>
+</html>
